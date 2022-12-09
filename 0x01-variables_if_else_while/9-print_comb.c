@@ -4,19 +4,21 @@
  *
  * Return: Always 0 (Success)
  */
-
-int main(void)
-{
-  for (int i = 0; i <= 9; i++)
+int main(void) {
+  int i = 0;
+  while (i <= 9)
   {
-    for (int j = 0; j <= 9; j++)
+    int j = 0;
+    while (j <= 9)
     {
       putchar(i + '0');
       putchar(',');
       putchar(' ');
       putchar(j + '0');
       putchar('\n');
+      j++;
     }
+    i++;
   }
 
   return (0);
