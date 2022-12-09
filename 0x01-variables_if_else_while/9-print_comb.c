@@ -5,21 +5,14 @@
  * Return: Always 0 (Success)
  */
 int main(void) {
-  int i = 0;
-  while (i <= 9)
-  {
-    int j = 0;
-    while (j <= 9)
-    {
-      putchar(i + '0');
-      putchar(',');
-      putchar(' ');
-      putchar(j + '0');
-      j++;
-    }
-    i++;
-  }
+	int j = 0;
 
-  return (0);
+	while (j <= 9)
+	{
+	putchar(j + '0');
+      	putchar(',');
+	putchar(' ');
+	j++;
+	}
+	return (0);
 }
-
