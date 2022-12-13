@@ -4,7 +4,7 @@
  * Return_ : Always 0 (Success)
  * @str: string to be printed
  */
-int _putchar(char* str)
+int _putcha(char str[])
 {
 	printf("%s", str);
 	return (0);
@@ -12,11 +12,5 @@ int _putchar(char* str)
 
 void print_alphabet(void)
 {
-	char i = 'z';
-
-	while (i <= 'z')
-	{
-		_putchar(i);
-		i++;
-	}
+	 
 }
