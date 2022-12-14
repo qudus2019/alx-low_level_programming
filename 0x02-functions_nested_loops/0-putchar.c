@@ -1,11 +1,19 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * main - entry point
- * Return: Always 0 (Success)
+ * return: Always 0
  */
 int main(void)
 {
-	_putchar("_putchar\n");
+	char* str[9] = "_putchar";
+	int i;
+
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar("\n");
 	return (0);
 }
