@@ -4,8 +4,7 @@
  * _putchar - check code
  * Return: Always 0
  */
-int _puchar(char c)
+int _putchar(char c)
 {
-	putchar(c);
-	return (0);
+	return (write(1, &c, 1));
 }
